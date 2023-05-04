@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient( to bottom ,black,#434343);
+    background-size: cover;
+    background-attachment: fixed;  
+}
+.container{
+   width: 500px;
+   background: rgba(140, 133, 133, 0.196);
+   padding: 40px;
+   text-align: center;
+   margin: auto;
+   margin-top: 10%;
+   color: white;
+   font-family:'Century Gothic',sans-serif;
+   border-radius: 20px;
+}
+img{
+    width: 200px;
+    border-radius: 40%;
+    background-position: center;
+    background-size:contain;
+}
+
+ul img{
+        width: 30px;
+      
+}
+ul{
+    margin: 0;
+    padding: 0;
+    
+}
+.container li{
+    display: inline;
+    margin: 10px;
+list-style:none;    
+}
+ul img:hover{
+    width: 40px;
+    opacity: 0.5;
+}
